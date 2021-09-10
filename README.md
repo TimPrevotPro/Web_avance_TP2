@@ -24,4 +24,18 @@ Those bugs have been fixed in release 2.9.4
 Webpack combines our different modules into static assets. It will help us because the browser won't have to load each module separately.
 
 ## Exercise 8
+Yes because it only loaded one file (the dist/index.js) instead of 6
+
+## Exercise 9
+In Production mode, the output is a single-line file
+From what I've understood, in Dev mode, the output uses the `eval()` function to create (for each file) a separate source file in the browser DevTools
+
+## Exercise 10
+Internet Explorer failed to run the bundled app because it is not compatible with ES6
+
+## Exercise 11
+No because we also need the corresponding polyfills
+
+## Exercise 13
+
 

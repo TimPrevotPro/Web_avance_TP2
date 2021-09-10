@@ -1,5 +1,6 @@
 import { apiGetRateHistory } from './api.js'
 import { renderRates } from './table.js'
+import 'regenerator-runtime/runtime'
 
 const feedbackParagraph = document.getElementById('js-init-feedback')
 const tickerSelect = document.getElementById('js-select-ticker')
