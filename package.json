@@ -22,7 +22,7 @@
     "webpack-cli": "^4.7.2"
   },
   "dependencies": {
-    "chart.js": "2.9.3",
+    "chart.js": "^3.5.1",
     "core-js": "^3.16.2",
     "regenerator-runtime": "^0.13.9",
     "whatwg-fetch": "^3.6.2"
